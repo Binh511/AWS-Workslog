@@ -1,6 +1,6 @@
-baseURL = "https://workshop-sample.fcjuni.com/"
+baseURL = "https://B.github.io/FCJ-Workslog/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
@@ -15,8 +15,8 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = ""
-  description = ""
-  author = "thienlh@thienlu.com"
+  description = "Official Internship Report of Duong Nguyen Binh - AI member (TheBois) at First Cloud AI Journey 2026. "
+  author = "binhduongnguyen05@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
