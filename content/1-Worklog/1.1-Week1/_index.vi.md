@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-01-11
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -20,11 +20,11 @@ pre: " <b> 1.1. </b> "
 
 | Ngày | Công việc                                                                                                                                                                                                     | Bắt đầu     | Hoàn thành    | Tài liệu tham khảo                       |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ------------- | ---------------------------------------- |
-| 2    | - Tham gia các kênh trao đổi FCJ, giới thiệu bản thân <br> - Đọc và ghi chú nội quy, quy trình báo cáo và cách thức làm việc trong chương trình                                                             | 08/11/2025  | 08/11/2025    |                                          |
-| 3    | - Tìm hiểu tổng quan AWS và nhóm các dịch vụ chính <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + IAM & Monitoring                                   | 08/12/2025  | 08/12/2025    | https://cloudjourney.awsstudygroup.com/ |
-| 4    | - Tạo tài khoản AWS Free Tier <br> - Làm quen với AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo IAM User <br>&emsp; + Cấu hình AWS CLI <br>&emsp; + Chạy các lệnh CLI cơ bản                 | 08/13/2025  | 08/13/2025    | https://cloudjourney.awsstudygroup.com/ |
-| 5    | - Nghiên cứu kiến thức EC2 cơ bản: <br>&emsp; + Loại instance <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + Security Group <br>&emsp; + Elastic IP                                                        | 08/14/2025  | 08/14/2025    | https://cloudjourney.awsstudygroup.com/ |
-| 6    | - **Thực hành lab:** <br>&emsp; + Khởi tạo EC2 instance <br>&emsp; + Kết nối SSH bằng key pair <br>&emsp; + Tạo & gắn thêm EBS Volume <br>&emsp; + Khám phá Instance Metadata                               | 08/15/2025  | 08/15/2025    | https://cloudjourney.awsstudygroup.com/ |
+| 2    | - Tham gia các kênh trao đổi FCJ, giới thiệu bản thân <br> - Đọc và ghi chú nội quy, quy trình báo cáo và cách thức làm việc trong chương trình                                                             | 01/11/2026  | 01/11/2026    |                                          |
+| 3    | - Tìm hiểu tổng quan AWS và nhóm các dịch vụ chính <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + IAM & Monitoring                                   | 01/11/2026  | 01/11/2026    | https://cloudjourney.awsstudygroup.com/ |
+| 4    | - Tạo tài khoản AWS Free Tier <br> - Làm quen với AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo IAM User <br>&emsp; + Cấu hình AWS CLI <br>&emsp; + Chạy các lệnh CLI cơ bản                 | 01/11/2026  | 01/11/2026    | https://cloudjourney.awsstudygroup.com/ |
+| 5    | - Nghiên cứu kiến thức EC2 cơ bản: <br>&emsp; + Loại instance <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + Security Group <br>&emsp; + Elastic IP                                                        | 01/11/2026  | 01/11/2026    | https://cloudjourney.awsstudygroup.com/ |
+| 6    | - **Thực hành lab:** <br>&emsp; + Khởi tạo EC2 instance <br>&emsp; + Kết nối SSH bằng key pair <br>&emsp; + Tạo & gắn thêm EBS Volume <br>&emsp; + Khám phá Instance Metadata                               | 01/11/2026  | 01/11/2026    | https://cloudjourney.awsstudygroup.com/ |
 
 ---
 

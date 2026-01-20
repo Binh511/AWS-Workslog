@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
+date: 2026-01-18
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.2. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tổng quan về AWS Storage & Database <br> - Tìm hiểu vai trò và use case của S3, EBS, RDS | 11/08/2025 | 11/08/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket & Object <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 12/08/2025 | 12/08/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Tìm hiểu Amazon EBS <br>&emsp; + Các loại volume <br>&emsp; + Gắn / tháo volume với EC2 <br>&emsp; + Snapshot & backup | 13/08/2025 | 13/08/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Tìm hiểu Amazon RDS <br>&emsp; + Các engine cơ sở dữ liệu <br>&emsp; + Cấu hình instance <br>&emsp; + Backup & security | 14/08/2025 | 14/08/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Cấu hình lifecycle policy <br>&emsp; + Xây dựng hệ thống upload file đơn giản sử dụng S3 | 15/08/2025 | 15/08/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 2 | - Tổng quan về AWS Storage & Database <br> - Tìm hiểu vai trò và use case của S3, EBS, RDS | 18/01/2026 | 18/01/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket & Object <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 18/01/2026 | 18/01/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu Amazon EBS <br>&emsp; + Các loại volume <br>&emsp; + Gắn / tháo volume với EC2 <br>&emsp; + Snapshot & backup | 18/01/2026 | 18/01/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu Amazon RDS <br>&emsp; + Các engine cơ sở dữ liệu <br>&emsp; + Cấu hình instance <br>&emsp; + Backup & security | 18/01/2026 | 18/01/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Cấu hình lifecycle policy <br>&emsp; + Xây dựng hệ thống upload file đơn giản sử dụng S3 | 18/01/2026 | 18/01/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 2:
 
