@@ -9,51 +9,47 @@ pre: " <b> 1.2. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu và nắm vững các dịch vụ Storage & Database trên AWS.
+* Biết cách cấu hình, quản lý và áp dụng các dịch vụ lưu trữ trong thực tế.
+* Thực hành xây dựng hệ thống lưu trữ dữ liệu đơn giản trên AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tổng quan về AWS Storage & Database <br> - Tìm hiểu vai trò và use case của S3, EBS, RDS | 11/08/2025 | 11/08/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket & Object <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 12/08/2025 | 12/08/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu Amazon EBS <br>&emsp; + Các loại volume <br>&emsp; + Gắn / tháo volume với EC2 <br>&emsp; + Snapshot & backup | 13/08/2025 | 13/08/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu Amazon RDS <br>&emsp; + Các engine cơ sở dữ liệu <br>&emsp; + Cấu hình instance <br>&emsp; + Backup & security | 14/08/2025 | 14/08/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Thực hành:** <br>&emsp; + Tạo S3 bucket <br>&emsp; + Cấu hình lifecycle policy <br>&emsp; + Xây dựng hệ thống upload file đơn giản sử dụng S3 | 15/08/2025 | 15/08/2025 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Nắm được kiến thức tổng quan về các dịch vụ Storage & Database trên AWS, bao gồm:
+  * Amazon S3
+  * Amazon EBS
+  * Amazon RDS
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Đã tạo và quản lý thành công Amazon S3 bucket:
+  * Upload và quản lý object
+  * Cấu hình lifecycle policy để tối ưu chi phí lưu trữ
+  * Hiểu sự khác nhau giữa các storage class
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu và thực hành với Amazon EBS:
+  * Tạo và gắn EBS volume vào EC2
+  * Tạo snapshot để backup và phục hồi dữ liệu
+  * Nắm được tính bền vững của dữ liệu trên EBS
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Đã thiết lập và quản lý Amazon RDS:
+  * Lựa chọn database engine phù hợp
+  * Cấu hình instance, storage và security group
+  * Hiểu cơ chế backup tự động và bảo trì cơ bản
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hoàn thành bài thực hành xây dựng hệ thống upload file đơn giản sử dụng Amazon S3, giúp hiểu rõ hơn về:
+  * Cách tích hợp ứng dụng với dịch vụ lưu trữ đám mây
+  * Phân quyền truy cập dữ liệu
+  * Luồng hoạt động của hệ thống lưu trữ trên AWS
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Củng cố khả năng kết hợp các dịch vụ Storage, Database với các dịch vụ Compute trong kiến trúc AWS thực tế.

@@ -9,49 +9,47 @@ pre: " <b> 1.2. </b> "
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand AWS Storage and Database services.
+* Learn how to design, configure, and manage storage resources on AWS.
+* Practice deploying a simple application using AWS storage services.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 2 | - Learn AWS Storage services overview <br> - Understand use cases of S3, EBS, and RDS | 08/11/2025 | 08/11/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Learn Amazon S3 fundamentals <br>&emsp; + Buckets & Objects <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 08/12/2025 | 08/12/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Learn Amazon EBS <br>&emsp; + Volume types <br>&emsp; + Attach/Detach volumes <br>&emsp; + Snapshots & backup strategy | 08/13/2025 | 08/13/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Learn Amazon RDS <br>&emsp; + Database engines <br>&emsp; + Instance configuration <br>&emsp; + Security & backup | 08/14/2025 | 08/14/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Hands-on Practice:** <br>&emsp; + Create S3 bucket <br>&emsp; + Configure lifecycle policy <br>&emsp; + Build a simple file upload system using S3 | 08/15/2025 | 08/15/2025 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Gained a solid understanding of AWS Storage and Database services, including:
+  * Amazon S3
+  * Amazon EBS
+  * Amazon RDS
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully created and managed Amazon S3 buckets, including:
+  * Uploading and managing objects
+  * Configuring lifecycle policies for cost optimization
+  * Understanding different storage classes and their use cases
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Learned how to work with Amazon EBS by:
+  * Creating and attaching EBS volumes to EC2 instances
+  * Creating snapshots for backup and recovery purposes
+  * Understanding persistence and data durability in AWS
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Successfully set up and managed an Amazon RDS instance, including:
+  * Selecting appropriate database engines
+  * Configuring instance size, storage, and security groups
+  * Understanding automated backup and basic maintenance concepts
 
-* Used AWS CLI to perform basic operations such as:
+* Completed a hands-on project to build a simple file upload system using Amazon S3, helping to reinforce practical knowledge of:
+  * Cloud storage integration
+  * Access permissions
+  * Basic application-to-cloud interaction
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Improved understanding of how AWS storage and database services integrate with compute resources in real-world cloud architectures.

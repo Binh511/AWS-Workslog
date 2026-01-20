@@ -1,5 +1,9 @@
 baseURL = "https://binh511.github.io/AWS-Workslog/"
+
 relativeURLs = false
+
+relativeURLs = true
+>>>>>>> 418400e (worklog 2)
 canonifyURLs = true
 defaultContentLanguage = "en"
 
