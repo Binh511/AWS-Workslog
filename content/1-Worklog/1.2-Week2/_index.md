@@ -1,7 +1,7 @@
 ---
 title: "Week 2 Worklog"
 date: 2026-01-18
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
@@ -20,10 +20,10 @@ pre: " <b> 1.2. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
 | 2 | - Learn AWS Storage services overview <br> - Understand use cases of S3, EBS, and RDS | 01/18/2025 | 01/18/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Learn Amazon S3 fundamentals <br>&emsp; + Buckets & Objects <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 01/11/2026 | 01/11/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Learn Amazon EBS <br>&emsp; + Volume types <br>&emsp; + Attach/Detach volumes <br>&emsp; + Snapshots & backup strategy | 01/11/2026 | 01/11/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Learn Amazon RDS <br>&emsp; + Database engines <br>&emsp; + Instance configuration <br>&emsp; + Security & backup | 01/11/2026 | 01/11/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - **Hands-on Practice:** <br>&emsp; + Create S3 bucket <br>&emsp; + Configure lifecycle policy <br>&emsp; + Build a simple file upload system using S3 | 01/11/2026 | 01/11/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Learn Amazon S3 fundamentals <br>&emsp; + Buckets & Objects <br>&emsp; + Storage Classes <br>&emsp; + Lifecycle Policies | 01/18/2026 | 01/18/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Learn Amazon EBS <br>&emsp; + Volume types <br>&emsp; + Attach/Detach volumes <br>&emsp; + Snapshots & backup strategy | 01/18/2026 | 01/18/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Learn Amazon RDS <br>&emsp; + Database engines <br>&emsp; + Instance configuration <br>&emsp; + Security & backup | 01/18/2026 | 01/18/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Hands-on Practice:** <br>&emsp; + Create S3 bucket <br>&emsp; + Configure lifecycle policy <br>&emsp; + Build a simple file upload system using S3 | 01/18/2026 | 01/18/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 2 Achievements:
 
