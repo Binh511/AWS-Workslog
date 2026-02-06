@@ -1,7 +1,7 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-02-06
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
@@ -9,49 +9,85 @@ pre: " <b> 1.4. </b> "
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-
 ### Week 4 Objectives:
+* Get acquainted with members of First Cloud Journey (FCJ).
+* Understand AWS cloud computing fundamentals.
+* Learn how to use AWS Management Console and AWS CLI.
+* Gain basic knowledge of EC2 and related components.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+|----|-----|------------|----------------|------------------|
+| 2 | - Get acquainted with FCJ members <br> - Read internship rules and regulations | 02/06/2026 | 02/06/2026 | |
+| 3 | - Learn AWS overview <br> - Study AWS service groups: Compute, Storage, Networking, Database | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Create AWS Free Tier account <br> - Learn AWS Console & AWS CLI <br> - Install and configure AWS CLI | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Learn EC2 fundamentals <br>&emsp;+ Instance types <br>&emsp;+ AMI <br>&emsp;+ EBS <br> - Learn Elastic IP <br> - Learn SSH connection methods | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Practice launching EC2 instance <br> - Connect to EC2 via SSH <br> - Attach EBS volume | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
+* Understood fundamental concepts of AWS Cloud and its global infrastructure.
+* Identified and differentiated main AWS service categories:
   * Compute
   * Storage
-  * Networking 
+  * Networking
   * Database
-  * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully created an AWS Free Tier account and explored billing dashboard.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Became familiar with AWS Management Console:
+  * Navigating services
+  * Creating and managing resources
+  * Viewing configurations and monitoring status
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Installed and configured AWS CLI:
+  * Configured Access Key & Secret Key
+  * Set default region and output format
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
+* Practiced using AWS CLI commands:
+  * View AWS account configuration
+  * List available regions
+  * Check EC2 instances
   * Create and manage key pairs
-  * Check information about running services
-  * ...
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Learned EC2 core components:
+  * Instance types and use cases
+  * Amazon Machine Image (AMI)
+  * Elastic Block Store (EBS)
+  * Elastic IP
+
+* Successfully launched an EC2 instance and connected via SSH.
+
+* Gained initial experience in managing AWS resources through both Console and CLI.
+
+---
+
+### Additional Learning:
+
+* Studied Identity & Security basics:
+  * IAM users, groups, and roles
+  * Policies and permissions
+  * Multi-Factor Authentication (MFA)
+
+* Reviewed project ideas and architecture:
+  * **Personal Blog Website**
+    - EC2 + RDS + S3  
+    - Estimated cost: ~$25/month
+  * **File Sharing System**
+    - S3 + Lambda + API Gateway  
+    - Estimated cost: ~$10/month
+
+---
+
+### Self-Evaluation:
+
+During this week, I gained a solid foundation in AWS Cloud and became comfortable working with both the AWS Console and AWS CLI. I can now independently create EC2 instances, connect via SSH, and perform basic cloud operations. This week established the technical base necessary for moving to more advanced AWS services in the upcoming weeks.
+
+---
+
+

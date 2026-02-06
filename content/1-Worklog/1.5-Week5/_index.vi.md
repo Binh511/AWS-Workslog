@@ -1,59 +1,73 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2024-02-06
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, bao gồm cả warning này.
 {{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu khái niệm Serverless Computing trên AWS.
+* Tìm hiểu và sử dụng AWS Lambda, API Gateway và DynamoDB.
+* Xây dựng REST API backend đơn giản bằng kiến trúc serverless.
+
+---
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|----|-----------|--------------|----------------|----------------|
+| 2 | - Tìm hiểu tổng quan về Serverless Architecture <br> - Tìm hiểu AWS Lambda và các trường hợp sử dụng | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Lambda Function, Runtime, Handler <br> - Tạo Lambda Function cơ bản | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu AWS API Gateway <br> - Tạo REST API và các endpoint | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br> - Thực hiện CRUD cơ bản | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Thực hành:** <br>&emsp; + Kết nối Lambda với API Gateway <br>&emsp; + Kết nối Lambda với DynamoDB <br>&emsp; + Kiểm thử REST API | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu được mô hình Serverless Computing và ưu điểm của kiến trúc serverless.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm được kiến thức cơ bản về AWS Lambda:
+  * Function, Runtime, Handler
+  * Trigger và luồng thực thi
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tạo và triển khai Lambda Function xử lý request.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Biết cách sử dụng AWS API Gateway:
+  * Tạo REST API
+  * Cấu hình resource và method
+  * Tích hợp với Lambda
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu cấu trúc DynamoDB:
+  * Table
+  * Partition Key, Sort Key
+  * Read/Write Capacity
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thực hiện thành công các thao tác CRUD với DynamoDB.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Xây dựng được REST API backend đơn giản sử dụng:
+  * AWS Lambda  
+  * API Gateway  
+  * DynamoDB  
 
+---
 
+### Đánh giá bản thân:
+
+Trong tuần 5, tôi đã làm quen với kiến trúc Serverless và có thể tự triển khai một backend đơn giản bằng các dịch vụ Lambda, API Gateway và DynamoDB. Kiến thức này giúp tôi hiểu rõ hơn về cách xây dựng ứng dụng cloud-native và tạo nền tảng cho các dự án lớn hơn trong những tuần tiếp theo.
+
+---
+
+Nếu bạn muốn, mình có thể viết tiếp:
+
+✅ **Tuần 6 – Containers & ECS**  
+✅ **Tuần 7 – Monitoring với CloudWatch**  
+✅ Chuẩn hóa toàn bộ worklog theo cùng một form  
+
+Bạn cứ nói nhé 👍
