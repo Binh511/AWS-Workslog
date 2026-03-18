@@ -1,64 +1,34 @@
 ---
-
-title: "Week 12 Worklog"
-date: 2024-04-03
-weight: 12
+title: "Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
-pre: " <b> 1.12. </b> "
------------------------
+pre: " <b> 1. </b> "
+---
 
-{{% notice warning %}}
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
-### Week 12 Objectives:
 
-* Understand optimization strategies in AWS.
-* Learn cost optimization techniques and performance tuning.
-* Understand disaster recovery planning.
-* Apply best practices to build a production-ready system.
 
-### Tasks to be carried out this week:
+**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
 
-| Day | Task                                                                                                     | Start Date | Completion Date | Reference Material                      |
-| --- | -------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn cost optimization techniques <br> - Understand pricing models and cost control                   | 04/03/2026 | 04/03/2026      |                                         |
-| 3   | - Learn performance tuning: <br>  + Resource optimization <br>  + Scaling strategies                     | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Learn disaster recovery: <br>  + Backup strategies <br>  + High availability                           | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Learn best practices: <br>  + Well-Architected principles <br>  + System reliability                   | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - **Practice:** <br>  + Optimize system cost and performance <br>  + Build production-ready architecture | 04/03/2025 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+**Week 2:** [Storage & Database Services](1.2-week2/)
 
-### Week 12 Achievements:
+**Week 3:** [Networking](1.3-week3/)
 
-* Understood optimization and best practices in AWS:
+**Week 4:** [Identity & Security](1.4-week4/)
 
-  * Cost optimization
-  * Performance tuning
-  * Disaster recovery
-  * ...
+**Week 5:** [Serverless Computing](1.5-week5/)
 
-* Applied cost optimization techniques:
+**Week 6:** [Application Integration](1.6-week6/)
 
-  * Reduced unnecessary resource usage
-  * Improved cost efficiency
-  * ...
+**Week 7:** [Containers & Orchestration](1.7-week7/)
 
-* Improved system performance:
+**Week 8:** [Monitoring & Logging](1.8-week8/)
 
-  * Optimized resource allocation
-  * Applied scaling strategies
-  * ...
+**Week 9:** [Advanced Networking](1.9-week9/)
 
-* Understood disaster recovery planning:
+**Week 10:** [DevOps & CI/CD](1.10-week10/)
 
-  * Backup and restore strategies
-  * High availability design
-  * ...
+**Week 11:** [Advanced Security](1.11-week11/)
 
-* Built a production-ready architecture:
-
-  * Applied best practices
-  * Improved reliability and scalability
-  * ...
-
-* ...
+**Week 12:** [Optimization & Best Practices](1.12-Week12/)
