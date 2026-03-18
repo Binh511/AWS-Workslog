@@ -1,39 +1,64 @@
 ---
-title: "Worklog"
-date: 2024-01-01
-weight: 1
+
+title: "Week 12 Worklog"
+date: 2024-04-03
+weight: 12
 chapter: false
-pre: " <b> 1. </b> "
----
+pre: " <b> 1.12. </b> "
+-----------------------
 
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+### Week 12 Objectives:
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+* Understand optimization strategies in AWS.
+* Learn cost optimization techniques and performance tuning.
+* Understand disaster recovery planning.
+* Apply best practices to build a production-ready system.
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+### Tasks to be carried out this week:
 
-**Week 2:** [Doing task A...](1.2-week2/)
+| Day | Task                                                                                                     | Start Date | Completion Date | Reference Material                      |
+| --- | -------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Learn cost optimization techniques <br> - Understand pricing models and cost control                   | 04/03/2026 | 04/03/2026      |                                         |
+| 3   | - Learn performance tuning: <br>  + Resource optimization <br>  + Scaling strategies                     | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Learn disaster recovery: <br>  + Backup strategies <br>  + High availability                           | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Learn best practices: <br>  + Well-Architected principles <br>  + System reliability                   | 04/03/2026 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Practice:** <br>  + Optimize system cost and performance <br>  + Build production-ready architecture | 04/03/2025 | 04/03/2026      | https://cloudjourney.awsstudygroup.com/ |
 
-**Week 3:** [Doing task B...](1.3-week3/)
+### Week 12 Achievements:
 
-**Week 4:** [Doing task C...](1.4-week4/)
+* Understood optimization and best practices in AWS:
 
-**Week 5:** [Doing task D...](1.5-week5/)
+  * Cost optimization
+  * Performance tuning
+  * Disaster recovery
+  * ...
 
-**Week 6:** [Doing task E...](1.6-week6/)
+* Applied cost optimization techniques:
 
-**Week 7:** [Doing task G...](1.7-week7/)
+  * Reduced unnecessary resource usage
+  * Improved cost efficiency
+  * ...
 
-**Week 8:** [Doing task H...](1.8-week8/)
+* Improved system performance:
 
-**Week 9:** [Doing task I...](1.9-week9/)
+  * Optimized resource allocation
+  * Applied scaling strategies
+  * ...
 
-**Week 10:** [Doing task L...](1.10-week10/)
+* Understood disaster recovery planning:
 
-**Week 11:** [Doing task M...](1.11-week11/)
+  * Backup and restore strategies
+  * High availability design
+  * ...
 
-**Week 12:** [Doing task N...](1.12-week12/)
+* Built a production-ready architecture:
+
+  * Applied best practices
+  * Improved reliability and scalability
+  * ...
+
+* ...

@@ -1,57 +1,67 @@
 ---
 title: "Week 8 Worklog"
+date: 2024-03-18
+weight: 8
+chapter: false
+pre: " <b> 1.8. </b> "
+---
+---
+
+title: "Week 8 Worklog"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
----
-{{% notice warning %}} 
+----------------------
+
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand monitoring and logging in AWS.
+* Learn how to use CloudWatch, CloudTrail, and X-Ray.
+* Practice setting up a basic monitoring system.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                      | Start Date | Completion Date | Reference Material                      |
+| --- | --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Learn overview of Monitoring & Logging <br> - Understand system observability                           | 03/18/2026 | 08/18/2026      |                                         |
+| 3   | - Learn CloudWatch: <br>  + Metrics <br>  + Logs <br>  + Alarms                                           | 03/18/2026 | 03/18/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Practice CloudWatch: <br>  + Create metrics <br>  + Create alarms (CPU, status check)                   | 03/18/2026 | 03/18/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Learn CloudTrail: <br>  + Event history <br>  + Audit logging                                           | 03/18/2026 | 03/18/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - Learn X-Ray: <br>  + Distributed tracing <br>  + Analyze request flow <br> - Hands-on: monitoring setup | 03/18/2025 | 03/18/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
+* Understood monitoring and logging concepts in AWS:
+
+  * Metrics
+  * Logs
+  * Tracing
   * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully worked with CloudWatch:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
+  * Monitored system metrics (CPU, status check, etc.)
+  * Created alarms for abnormal conditions
   * ...
 
-* Used AWS CLI to perform basic operations such as:
+* Learned how to use CloudTrail:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
+  * Viewed event history
+  * Tracked API activities
   * ...
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* Understood distributed tracing using X-Ray:
+
+  * Observed request flow between services
+  * Identified latency in the system
+  * ...
+
+* Built a basic monitoring system by combining multiple AWS services.
+
 * ...
+
