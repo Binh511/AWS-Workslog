@@ -1,14 +1,10 @@
-
+--
 title: "Week 11 Worklog"
-date: 2024-03-30
+date: 2024-03-28
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 -----------------------
-
-{{% notice warning %}}
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 ### Week 11 Objectives:
 
@@ -21,11 +17,11 @@ pre: " <b> 1.11. </b> "
 
 | Day | Task                                                                                                                    | Start Date | Completion Date | Reference Material                      |
 | --- | ----------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn AWS WAF <br> - Understand request filtering and web protection                                                  | 03/30/2026 | 03/30/2026      |                                         |
-| 3   | - Learn AWS Shield <br> - Understand DDoS protection mechanisms                                                         | 03/30/2026 | 03/30/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Learn Secrets Manager: <br>  + Manage secrets <br>  + Secure sensitive data                                           | 03/30/2026 | 03/30/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Learn Certificate Manager: <br>  + SSL/TLS <br>  + Certificate management                                             | 03/30/2026 | 03/30/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - **Practice:** <br>  + Configure WAF <br>  + Apply SSL using Certificate Manager <br>  + Secure production environment | 03/30/2026 | 03/30/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 2   | - Learn AWS WAF <br> - Understand request filtering and web protection                                                  | 03/28/2026 | 03/28/2026      |                                         |
+| 3   | - Learn AWS Shield <br> - Understand DDoS protection mechanisms                                                         | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Learn Secrets Manager: <br>  + Manage secrets <br>  + Secure sensitive data                                           | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Learn Certificate Manager: <br>  + SSL/TLS <br>  + Certificate management                                             | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - **Practice:** <br>  + Configure WAF <br>  + Apply SSL using Certificate Manager <br>  + Secure production environment | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 11 Achievements:
 

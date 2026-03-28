@@ -1,15 +1,10 @@
 ---
-
 title: "Worklog Tuần 8"
 date: 2024-03-18
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ----------------------
-
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 8:
 

@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-> ⚠️ **Note:** The content below is for reference purposes only. Please do not copy it verbatim for your official submission.
-
 ### Week 1 Objectives:
 
 * Connect and communicate with members of the First Cloud Journey community.

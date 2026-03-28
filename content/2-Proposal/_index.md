@@ -1,15 +1,10 @@
 ---
-
 title: "Proposal"
 date: 2026-03-26
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 --------------------
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
 In this section, you need to summarize the workshop contents that you **plan** to implement.
 
