@@ -3,7 +3,7 @@ title: "Event 2"
 date: 2026-03-14
 weight: 3
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 3.2. </b> "
 ---
 
 # Summary Report: “AI Agents, Prompt Engineering, and AIoT Projects on AWS”
