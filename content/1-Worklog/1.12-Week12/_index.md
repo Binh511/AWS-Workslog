@@ -1,57 +1,72 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2024-03-28
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand optimization techniques and AWS best practices.
+* Learn cost optimization, performance tuning, and disaster recovery planning.
+* Apply production-ready architecture concepts in real scenarios.
+* Build and review practical cloud-based projects.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                                    | Start Date | Completion Date | Reference Material                      |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Learn cost optimization techniques <br> - Understand resource efficiency and monthly cost estimation                                                                  | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Learn performance tuning <br>  + Auto Scaling <br>  + Load Balancing <br>  + Resource optimization                                                                    | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Learn disaster recovery planning <br>  + Backup strategies <br>  + High availability <br>  + Fault tolerance                                                          | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Work on **Project 1: E-commerce Platform** <br>  + Multi-tier architecture <br>  + Auto-scaling and load balancing <br>  + Cost estimation (~$45/month)               | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - Work on **Project 2: Data Analytics Pipeline** <br>  + S3 + Glue + Athena + QuickSight <br>  + Data processing and visualization <br>  + Cost estimation (~$25/month) | 03/28/2026 | 03/28/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
+* Understood AWS optimization and best practices:
+
+  * Cost optimization
+  * Performance tuning
+  * Disaster recovery planning
   * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Applied cost optimization techniques:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
+  * Evaluated resource usage
+  * Estimated infrastructure cost for each architecture
+  * Improved cost awareness in deployment planning
   * ...
 
-* Used AWS CLI to perform basic operations such as:
+* Learned how to improve system performance:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
+  * Applied Auto Scaling concepts
+  * Used Load Balancing for better traffic distribution
+  * Designed more efficient cloud architecture
   * ...
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
+* Understood production-readiness and disaster recovery concepts:
+
+  * Backup and recovery planning
+  * High availability design
+  * Fault-tolerant architecture
+  * ...
+
+* Completed practical project analysis and architecture planning:
+
+  * **E-commerce Platform**
+
+    * Designed a multi-tier architecture
+    * Applied Auto Scaling and Load Balancer concepts
+    * Estimated deployment cost at around **$45/month**
+
+  * **Data Analytics Pipeline**
+
+    * Built a pipeline using **S3, Glue, Athena, and QuickSight**
+    * Understood data ingestion, processing, querying, and visualization flow
+    * Estimated deployment cost at around **$25/month**
+
+* Improved ability to evaluate whether an AWS architecture is suitable for **production deployment**.
+
 * ...

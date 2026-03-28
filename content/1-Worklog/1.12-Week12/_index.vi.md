@@ -1,58 +1,72 @@
 ---
 title: "Worklog Tuần 12"
-date: 2024-01-01
-weight: 2
+date: 2024-03-28
+weight: 12
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu các kỹ thuật tối ưu hệ thống và best practices trong AWS.
+* Tìm hiểu tối ưu chi phí, tối ưu hiệu năng và lập kế hoạch disaster recovery.
+* Áp dụng các nguyên tắc production-ready architecture vào tình huống thực tế.
+* Xây dựng và phân tích các mô hình dự án triển khai trên nền tảng cloud.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                          |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| 2   | - Tìm hiểu các kỹ thuật tối ưu chi phí <br> - Hiểu về hiệu quả sử dụng tài nguyên và ước tính chi phí hàng tháng                                                           | 28/03/2026   | 28/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 3   | - Tìm hiểu tối ưu hiệu năng <br>  + Auto Scaling <br>  + Load Balancing <br>  + Tối ưu tài nguyên                                                                          | 28/03/2026   | 28/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Tìm hiểu lập kế hoạch disaster recovery <br>  + Backup strategies <br>  + High availability <br>  + Fault tolerance                                                      | 28/03/2026   | 28/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Thực hiện **Project 1: E-commerce Platform** <br>  + Multi-tier architecture <br>  + Auto-scaling và load balancing <br>  + Ước tính chi phí (~45 USD/tháng)             | 28/03/2026   | 28/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - Thực hiện **Project 2: Data Analytics Pipeline** <br>  + S3 + Glue + Athena + QuickSight <br>  + Xử lý và trực quan hóa dữ liệu <br>  + Ước tính chi phí (~25 USD/tháng) | 28/03/2026   | 28/03/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
+* Hiểu các kỹ thuật tối ưu và best practices trong AWS:
+
+  * Cost optimization
+  * Performance tuning
+  * Disaster recovery planning
   * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Áp dụng được các kỹ thuật tối ưu chi phí:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
+  * Đánh giá mức độ sử dụng tài nguyên
+  * Ước tính chi phí hạ tầng cho từng kiến trúc
+  * Nâng cao khả năng kiểm soát chi phí khi triển khai hệ thống
   * ...
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Nắm được cách cải thiện hiệu năng hệ thống:
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
+  * Áp dụng các khái niệm về Auto Scaling
+  * Sử dụng Load Balancing để phân phối lưu lượng hiệu quả hơn
+  * Thiết kế kiến trúc cloud tối ưu và hiệu quả hơn
   * ...
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
+* Hiểu các khái niệm về production-readiness và disaster recovery:
+
+  * Lập kế hoạch backup và recovery
+  * Thiết kế hệ thống có tính sẵn sàng cao (high availability)
+  * Xây dựng kiến trúc có khả năng chịu lỗi (fault tolerance)
+  * ...
+
+* Hoàn thành việc phân tích và xây dựng kiến trúc cho các bài toán thực tế:
+
+  * **E-commerce Platform**
+
+    * Thiết kế kiến trúc nhiều tầng (multi-tier architecture)
+    * Áp dụng Auto Scaling và Load Balancer vào hệ thống
+    * Ước tính chi phí triển khai khoảng **45 USD/tháng**
+
+  * **Data Analytics Pipeline**
+
+    * Xây dựng pipeline dữ liệu sử dụng **S3, Glue, Athena và QuickSight**
+    * Hiểu quy trình ingest, xử lý, truy vấn và trực quan hóa dữ liệu
+    * Ước tính chi phí triển khai khoảng **25 USD/tháng**
+
+* Nâng cao khả năng đánh giá mức độ phù hợp của một kiến trúc AWS đối với môi trường **production deployment**.
+
 * ...
-
-
