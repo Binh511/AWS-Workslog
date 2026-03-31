@@ -24,8 +24,8 @@ chapter: false
 ### Nội dung báo cáo
 
 1. [Nhật ký công việc](1-Worklog/)
-2. [Đề xuất](2-Proposal/)
-3. [Sự kiện đã tham gia](3-EventParticipated/)
+2. [Bản đề xuất](2-Proposal/)
+3. [các sự kiện đã tham gia](3-EventParticipated/)
 4. [Workshop](4-Workshop/)
 5. [Tự đánh giá](5-Self-evaluation/)
 6. [Chia sẻ và phản hồi](6-Feedback/)
