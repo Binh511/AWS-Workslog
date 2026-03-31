@@ -9,7 +9,7 @@ chapter: false
 
 ### Thông tin sinh viên:
 
-&emsp; **Họ và tên:** Dương Nguyễn Bình  
+&emsp; **Họ và tên:** Dương Nguyên Bình  
 &emsp; **Số điện thoại:** 0899948997  
 &emsp; **Email:** binhduongnguyen05@gmail.com  
 &emsp; **Trường:** Đại học FPT  
@@ -23,7 +23,7 @@ chapter: false
 
 ### Nội dung báo cáo
 
-1. [Nhật ký thực tập](1-Worklog/)
+1. [Nhật ký công việc](1-Worklog/)
 2. [Đề xuất](2-Proposal/)
 3. [Sự kiện đã tham gia](3-EventParticipated/)
 4. [Workshop](4-Workshop/)
