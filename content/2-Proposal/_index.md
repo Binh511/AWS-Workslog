@@ -78,7 +78,7 @@ Client (browser / loader)
   → CloudWatch Logs (auto stream from Lambda)
   → API Gateway WebSocket API (real-time sync)
 ```
-
+![IrisAuth System Architecture](/images/2-Proposal/architecture.png)
 #### AWS Services Used
 
 | Layer          | Service                   | Details                                                                       |

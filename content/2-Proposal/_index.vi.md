@@ -76,7 +76,7 @@ Client (browser / loader)
   → CloudWatch Logs (auto stream từ Lambda)
   → API Gateway WebSocket API (real-time sync)
 ```
-
+![Kiến trúc hệ thống IrisAuth](/images/2-Proposal/architecture.png)
 #### Dịch vụ AWS sử dụng
 
 | Tầng | Dịch vụ | Chi tiết |
