@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-02-06
+date: 2026-02-06
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -8,60 +8,37 @@ pre: " <b> 1.4. </b> "
 
 ### Mục tiêu tuần 4:
 
-* Kết nối và làm quen với các thành viên trong chương trình First Cloud Journey (FCJ).
-* Nắm được tổng quan về AWS và các nhóm dịch vụ cơ bản.
-* Biết cách sử dụng AWS Management Console và AWS CLI.
-
----
+* Hiểu về AWS Identity and Access Management (IAM).
+* Tìm hiểu IAM users, groups và roles.
+* Hiểu về policies và permissions.
+* Cấu hình Multi-Factor Authentication (MFA).
+* Thực hành xây dựng môi trường đa người dùng bảo mật.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|----|-----------|--------------|----------------|----------------|
-| 2 | - Làm quen với các thành viên FCJ <br> - Đọc và ghi chú các nội quy, quy định tại đơn vị thực tập | 06/02/2026 | 06/02/2026 | |
-| 3 | - Tìm hiểu tổng quan về AWS <br> - Học các nhóm dịch vụ: Compute, Storage, Networking, Database | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console và AWS CLI <br> - Cài đặt và cấu hình AWS CLI | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Tìm hiểu EC2 cơ bản: Instance types, AMI, EBS <br> - Tìm hiểu Elastic IP <br> - Các cách kết nối SSH vào EC2 | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - Thực hành tạo EC2 Instance <br> - Kết nối EC2 qua SSH <br> - Gắn thêm EBS volume | 06/02/2026 | 06/02/2026 | https://cloudjourney.awsstudygroup.com/ |
-
----
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tìm hiểu các khái niệm IAM <br> - IAM users, groups và roles | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Tìm hiểu IAM policies <br> - Mô hình phân quyền trong AWS | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Tạo IAM users và groups <br> - Gán quyền thông qua policies | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Cấu hình MFA cho IAM users <br> - Các best practices về bảo mật | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - IAM roles và role-based access | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 7 | - **Thực hành:** Môi trường đa người dùng bảo mật: <br>  + Tạo nhiều IAM users <br>  + Tạo groups và gán policies <br>  + Cấu hình MFA <br>  + Kiểm tra quyền truy cập | 06/02/2026 | 06/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu khái niệm AWS Cloud và mô hình điện toán đám mây.
-* Phân biệt được các nhóm dịch vụ chính của AWS:
-  * Compute  
-  * Storage  
-  * Networking  
-  * Database  
+* Hiểu được kiến trúc AWS IAM và mô hình kiểm soát truy cập.
 
-* Tạo và cấu hình thành công tài khoản AWS Free Tier.
+* Có khả năng tạo và quản lý:
 
-* Làm quen với giao diện AWS Management Console:
-  * Tìm kiếm dịch vụ
-  * Tạo và quản lý tài nguyên
-  * Theo dõi trạng thái hoạt động
+  * IAM users
+  * IAM groups
+  * IAM roles
 
-* Cài đặt và cấu hình AWS CLI:
-  * Thiết lập Access Key và Secret Key
-  * Cấu hình Region mặc định
+* Hiểu về policies và permissions trong AWS.
 
-* Thực hành các lệnh AWS CLI cơ bản:
-  * Kiểm tra thông tin cấu hình
-  * Lấy danh sách Region
-  * Xem danh sách EC2 Instance
-  * Tạo và quản lý Key Pair
+* Đã cấu hình Multi-Factor Authentication (MFA) cho IAM users.
 
-* Tạo EC2 Instance và kết nối thành công qua SSH.
+* Áp dụng nguyên tắc least privilege trong thiết kế phân quyền.
 
-* Có thể quản lý tài nguyên AWS thông qua cả Console và CLI.
-
----
-
-### Đánh giá bản thân:
-
-Trong tuần 4, tôi đã xây dựng được nền tảng ban đầu về AWS Cloud, hiểu được cách tạo và quản lý EC2 Instance, cũng như sử dụng AWS CLI cho các thao tác cơ bản. Đây là tiền đề quan trọng để tiếp tục học các dịch vụ nâng cao hơn trong các tuần tiếp theo.
-
----
-
-
+* Xây dựng thành công môi trường AWS đa người dùng bảo mật cho mục đích quản lý truy cập cơ bản.

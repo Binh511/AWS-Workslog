@@ -30,28 +30,28 @@ pre: " <b> 1.12. </b> "
   * Cost optimization
   * Performance tuning
   * Disaster recovery planning
-  * ...
+  
 
 * Applied cost optimization techniques:
 
   * Evaluated resource usage
   * Estimated infrastructure cost for each architecture
   * Improved cost awareness in deployment planning
-  * ...
+  
 
 * Learned how to improve system performance:
 
   * Applied Auto Scaling concepts
   * Used Load Balancing for better traffic distribution
   * Designed more efficient cloud architecture
-  * ...
+  
 
 * Understood production-readiness and disaster recovery concepts:
 
   * Backup and recovery planning
   * High availability design
   * Fault-tolerant architecture
-  * ...
+  
 
 * Completed practical project analysis and architecture planning:
 
@@ -69,4 +69,4 @@ pre: " <b> 1.12. </b> "
 
 * Improved ability to evaluate whether an AWS architecture is suitable for **production deployment**.
 
-* ...
+

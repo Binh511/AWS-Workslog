@@ -35,30 +35,28 @@ pre: " <b> 1.11. </b> "
   * AWS Shield
   * Secrets Manager
   * Certificate Manager
-  * ...
+  
 
 * Nắm được cách bảo vệ ứng dụng web:
 
   * Lọc request với WAF
   * Giảm thiểu tấn công DDoS với Shield
-  * ...
+  
 
 * Sử dụng Secrets Manager:
 
   * Lưu trữ và quản lý thông tin nhạy cảm
   * Tăng cường bảo mật cho hệ thống
-  * ...
+  
 
 * Hiểu và áp dụng Certificate Manager:
 
   * Cấu hình SSL/TLS
   * Bảo mật kết nối HTTPS
-  * ...
+  
 
 * Thực hành xây dựng môi trường production an toàn:
 
   * Kết hợp nhiều dịch vụ bảo mật
   * Tăng độ an toàn cho hệ thống
-  * ...
-
-* ...
+  

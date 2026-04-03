@@ -31,30 +31,29 @@ pre: " <b> 1.11. </b> "
   * AWS Shield
   * Secrets Manager
   * Certificate Manager
-  * ...
+  
 
 * Learned how to secure web applications:
 
   * Filter requests using WAF
   * Mitigate DDoS attacks with Shield
-  * ...
+  
 
 * Used Secrets Manager:
 
   * Store and manage sensitive information
   * Improve system security
-  * ...
+  
 
 * Applied Certificate Manager:
 
   * Configure SSL/TLS
   * Secure HTTPS connections
-  * ...
+  
 
 * Built a more secure production environment:
 
   * Combined multiple security services
   * Enhanced overall system protection
-  * ...
+  
 
-* ...

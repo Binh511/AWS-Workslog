@@ -30,30 +30,30 @@ pre: " <b> 1.9. </b> "
   * VPC Peering
   * Transit Gateway
   * Direct Connect
-  * ...
+  
 
 * Phân biệt được:
 
   * Khi nào dùng VPC Peering
   * Khi nào dùng Transit Gateway
-  * ...
+  
 
 * Nắm được cách hoạt động của CloudFront CDN:
 
   * Caching nội dung
   * Phân phối dữ liệu qua các Edge locations
-  * ...
+  
 
 * Thực hành triển khai CloudFront:
 
   * Tăng tốc độ truy cập ứng dụng
   * Giảm độ trễ cho người dùng ở nhiều khu vực
-  * ...
+  
 
 * Hiểu cách xây dựng kiến trúc ứng dụng global:
 
   * Sử dụng CDN
   * Phân phối nội dung đa khu vực
-  * ...
+  
 
-* ...
+

@@ -31,7 +31,7 @@ pre: " <b> 1.10. </b> "
   * Continuous Integration
   * Continuous Deployment
   * Automation
-  * ...
+  
 
 * Sử dụng được các dịch vụ:
 
@@ -39,24 +39,24 @@ pre: " <b> 1.10. </b> "
   * CodeBuild
   * CodeDeploy
   * CodePipeline
-  * ...
+  
 
 * Xây dựng được pipeline CI/CD cơ bản:
 
   * Tự động build và deploy ứng dụng
   * Kết nối nhiều service trong workflow
-  * ...
+  
 
 * Hiểu Infrastructure as Code với CloudFormation:
 
   * Định nghĩa tài nguyên bằng template
   * Quản lý hạ tầng một cách nhất quán
-  * ...
+  
 
 * Áp dụng thực hành:
 
   * Triển khai ứng dụng tự động
   * Giảm thao tác thủ công khi deploy
-  * ...
+  
 
-* ...
+

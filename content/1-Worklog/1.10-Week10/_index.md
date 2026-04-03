@@ -30,7 +30,7 @@ pre: " <b> 1.10. </b> "
   * Continuous Integration
   * Continuous Deployment
   * Automation workflow
-  * ...
+  
 
 * Learned how to use AWS DevOps services:
 
@@ -38,24 +38,24 @@ pre: " <b> 1.10. </b> "
   * CodeBuild
   * CodeDeploy
   * CodePipeline
-  * ...
+  
 
 * Built a basic CI/CD pipeline:
 
   * Automated build and deployment process
   * Integrated multiple services into a workflow
-  * ...
+  
 
 * Understood Infrastructure as Code using CloudFormation:
 
   * Defined resources using templates
   * Managed infrastructure in a consistent way
-  * ...
+  
 
 * Applied hands-on knowledge to:
 
   * Deploy applications automatically
   * Reduce manual deployment effort
-  * ...
+  
 
-* ...
+

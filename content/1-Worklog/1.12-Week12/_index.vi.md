@@ -30,28 +30,27 @@ pre: " <b> 1.12. </b> "
   * Cost optimization
   * Performance tuning
   * Disaster recovery planning
-  * ...
+  
 
 * Áp dụng được các kỹ thuật tối ưu chi phí:
 
   * Đánh giá mức độ sử dụng tài nguyên
   * Ước tính chi phí hạ tầng cho từng kiến trúc
   * Nâng cao khả năng kiểm soát chi phí khi triển khai hệ thống
-  * ...
-
+  
 * Nắm được cách cải thiện hiệu năng hệ thống:
 
   * Áp dụng các khái niệm về Auto Scaling
   * Sử dụng Load Balancing để phân phối lưu lượng hiệu quả hơn
   * Thiết kế kiến trúc cloud tối ưu và hiệu quả hơn
-  * ...
+  
 
 * Hiểu các khái niệm về production-readiness và disaster recovery:
 
   * Lập kế hoạch backup và recovery
   * Thiết kế hệ thống có tính sẵn sàng cao (high availability)
   * Xây dựng kiến trúc có khả năng chịu lỗi (fault tolerance)
-  * ...
+  
 
 * Hoàn thành việc phân tích và xây dựng kiến trúc cho các bài toán thực tế:
 
@@ -69,4 +68,3 @@ pre: " <b> 1.12. </b> "
 
 * Nâng cao khả năng đánh giá mức độ phù hợp của một kiến trúc AWS đối với môi trường **production deployment**.
 
-* ...

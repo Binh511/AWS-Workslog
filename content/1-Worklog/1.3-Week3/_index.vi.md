@@ -4,21 +4,22 @@ date: 2026-01-27
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
-----------------------
+---
 
 ### Mục tiêu tuần 3:
+
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                     |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ---------------------------------------------------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                             | 27/01/2026   | 27/01/2026      |                                                                                    |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>  + Compute <br>  + Storage <br>  + Networking <br>  + Database <br>  + ...                                                          | 27/01/2026   | 27/01/2026      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>  + Tạo AWS account <br>  + Cài AWS CLI & cấu hình <br>  + Cách sử dụng AWS CLI | 27/01/2026   | 27/01/2026      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>  + Instance types <br>  + AMI <br>  + EBS <br>  + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP                             | 27/01/2026   | 27/01/2026      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| 6   | - **Thực hành:** <br>  + Tạo EC2 instance <br>  + Kết nối SSH <br>  + Gắn EBS volume                                                                                        | 27/01/2026   | 27/01/2026      | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập | 27/01/2026 | 27/01/2026 | |
+| 3 | - Tìm hiểu AWS và các loại dịch vụ <br>  + Compute <br>  + Storage <br>  + Networking <br>  + Database <br>  + ... | 27/01/2026 | 27/01/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>  + Tạo AWS account <br>  + Cài AWS CLI & cấu hình <br>  + Cách sử dụng AWS CLI | 27/01/2026 | 27/01/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Tìm hiểu EC2 cơ bản: <br>  + Instance types <br>  + AMI <br>  + EBS <br>  + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP | 27/01/2026 | 27/01/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - **Thực hành:** <br>  + Tạo EC2 instance <br>  + Kết nối SSH <br>  + Gắn EBS volume | 27/01/2026 | 27/01/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 3:
 
@@ -51,4 +52,3 @@ pre: " <b> 1.3. </b> "
   * ...
 
 * Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-

@@ -30,30 +30,30 @@ pre: " <b> 1.9. </b> "
   * VPC Peering
   * Transit Gateway
   * Direct Connect
-  * ...
+  
 
 * Learned how to connect multiple VPCs:
 
   * Using VPC Peering
   * Using Transit Gateway
-  * ...
+  
 
 * Understood Direct Connect:
 
   * On-premise to AWS connection
   * Improved network reliability
-  * ...
+  
 
 * Used CloudFront CDN:
 
   * Content caching
   * Distribution through edge locations
-  * ...
+  
 
 * Applied knowledge to build a global application architecture:
 
   * Reduced latency
   * Improved performance for global users
-  * ...
+  
 
-* ...
+
