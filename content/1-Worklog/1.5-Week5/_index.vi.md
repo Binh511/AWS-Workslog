@@ -60,11 +60,3 @@ pre: " <b> 1.5. </b> "
 Trong tuần 5, tôi đã làm quen với kiến trúc Serverless và có thể tự triển khai một backend đơn giản bằng các dịch vụ Lambda, API Gateway và DynamoDB. Kiến thức này giúp tôi hiểu rõ hơn về cách xây dựng ứng dụng cloud-native và tạo nền tảng cho các dự án lớn hơn trong những tuần tiếp theo.
 
 ---
-
-Nếu bạn muốn, mình có thể viết tiếp:
-
-✅ **Tuần 6 – Containers & ECS**  
-✅ **Tuần 7 – Monitoring với CloudWatch**  
-✅ Chuẩn hóa toàn bộ worklog theo cùng một form  
-
-Bạn cứ nói nhé 👍
