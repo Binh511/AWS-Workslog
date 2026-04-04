@@ -14,7 +14,7 @@ chapter: false
 &emsp; **Email:** binhduongnguyen05@gmail.com  
 &emsp; **University:** FPT University  
 &emsp; **Major:** Artificial Intelligence  
-&emsp; **Class:** AWS082025  
+&emsp; **Class:** SE194067  
 &emsp; **Internship Company:** Bootcamp - First Cloud AI Journey @ AWS Study Group  
 &emsp; **Internship Position:** FCJ Cloud Intern  
 &emsp; **Internship Duration:** From 01/11/2026 to 04/17/2026  

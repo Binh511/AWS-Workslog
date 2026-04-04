@@ -14,7 +14,7 @@ chapter: false
 &emsp; **Email:** binhduongnguyen05@gmail.com  
 &emsp; **Trường:** Đại học FPT  
 &emsp; **Chuyên ngành:** Trí tuệ nhân tạo  
-&emsp; **Lớp:** AWS082025  
+&emsp; **Lớp:** SE194067  
 &emsp; **Công ty thực tập:** Bootcamp - First Cloud AI Journey @ AWS Study Group  
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern  
 &emsp; **Thời gian thực tập:** Từ 11/01/2026 đến 17/04/2026  
