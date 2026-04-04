@@ -1,33 +1,48 @@
 ---
 title: "Workshop"
-date: 2024-01-01
-weight : 4
+date: 2026-03-26
+weight: 5
 chapter: false
-pre: " <b> 4. </b> "
+pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# GuardScript — Nền tảng bảo vệ mã nguồn serverless
 
+## Triển khai GuardScript trên AWS
 
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+**GuardScript** là nền tảng phân phối script theo cơ chế loader kiểm soát truy cập, xây dựng trên kiến trúc serverless hoàn toàn trên AWS. Trong workshop này, bạn sẽ triển khai toàn bộ nền tảng — từ source code đến hệ thống hoạt động thực tế — bằng AWS SAM và AWS CLI.
 
-#### Tổng quan
+#### Những gì bạn sẽ triển khai
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+- **AWS Lambda** (Node.js 20.x) — API backend theo mô hình modular monolith
+- **Amazon DynamoDB** — 14 bảng (PAY_PER_REQUEST) cho toàn bộ dữ liệu nền tảng
+- **Amazon S3** — Lưu trữ frontend và nội dung script được mã hóa
+- **Amazon CloudFront** — CDN với định tuyến edge và SPA URL rewriting
+- **API Gateway WebSocket** — Phát sự kiện thời gian thực đến client
+- **Amazon CloudWatch** — Alarms, dashboard vận hành và logs cấu trúc
+- **AWS WAF** — Bảo vệ request tại edge (tùy chọn)
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+#### Kiến trúc
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+```
+Client (browser / loader)
+  → CloudFront Distribution (SSL, cache, SPA rewrite)
+    → Static assets: S3 Bucket (frontend)
+    → /api/*, /files/*: Lambda Function URL (API backend)
+      → DynamoDB (14 bảng)
+      → S3 (nội dung script)
+  → API Gateway WebSocket API (sự kiện thời gian thực)
+  → CloudWatch Logs / Alarms / Dashboard
+```
+
+![Kiến trúc hệ thống GuardScript](/images/2-Proposal/architecture.jpg)
 
 #### Nội dung
 
-1. [Tổng quan về workshop](4.1-Workshop-overview/)
-2. [Chuẩn bị](4.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](4.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](4.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](4.5-Policy/)
-6. [Dọn dẹp tài nguyên](4.6-Cleanup/)
+1. [Tổng quan](5.1-Workshop-overview/)
+2. [Chuẩn bị](5.2-Prerequiste/)
+3. [Giai đoạn 1: Chuẩn bị Lambda Artifacts](5.3-Prepare-Lambda/)
+4. [Giai đoạn 2: Triển khai hạ tầng AWS](5.4-Deploy-Infrastructure/)
+5. [Giai đoạn 3: Triển khai Frontend](5.5-Deploy-Frontend/)
+6. [Giai đoạn 4: Cấu hình & Kiểm tra](5.6-Configure-Validate/)
+7. [Dọn dẹp tài nguyên](5.7-Cleanup/)

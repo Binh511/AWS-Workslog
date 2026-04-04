@@ -1,242 +1,129 @@
----
-title : "Các bước chuẩn bị"
-date : 2024-01-01 
-weight : 2
-chapter : false
-pre : " <b> 4.2. </b> "
+﻿---
+title: "Chuẩn bị"
+date: 2026-03-26
+weight: 2
+chapter: false
+pre: " <b> 5.2. </b> "
 ---
 
-#### IAM permissions
-Gắn IAM permission policy sau vào tài khoản aws user của bạn để triển khai và dọn dẹp tài nguyên trong workshop này.
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "cloudformation:*",
-                "cloudwatch:*",
-                "ec2:AcceptTransitGatewayPeeringAttachment",
-                "ec2:AcceptTransitGatewayVpcAttachment",
-                "ec2:AllocateAddress",
-                "ec2:AssociateAddress",
-                "ec2:AssociateIamInstanceProfile",
-                "ec2:AssociateRouteTable",
-                "ec2:AssociateSubnetCidrBlock",
-                "ec2:AssociateTransitGatewayRouteTable",
-                "ec2:AssociateVpcCidrBlock",
-                "ec2:AttachInternetGateway",
-                "ec2:AttachNetworkInterface",
-                "ec2:AttachVolume",
-                "ec2:AttachVpnGateway",
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:CreateClientVpnEndpoint",
-                "ec2:CreateClientVpnRoute",
-                "ec2:CreateCustomerGateway",
-                "ec2:CreateDhcpOptions",
-                "ec2:CreateFlowLogs",
-                "ec2:CreateInternetGateway",
-                "ec2:CreateLaunchTemplate",
-                "ec2:CreateNetworkAcl",
-                "ec2:CreateNetworkInterface",
-                "ec2:CreateNetworkInterfacePermission",
-                "ec2:CreateRoute",
-                "ec2:CreateRouteTable",
-                "ec2:CreateSecurityGroup",
-                "ec2:CreateSubnet",
-                "ec2:CreateSubnetCidrReservation",
-                "ec2:CreateTags",
-                "ec2:CreateTransitGateway",
-                "ec2:CreateTransitGatewayPeeringAttachment",
-                "ec2:CreateTransitGatewayPrefixListReference",
-                "ec2:CreateTransitGatewayRoute",
-                "ec2:CreateTransitGatewayRouteTable",
-                "ec2:CreateTransitGatewayVpcAttachment",
-                "ec2:CreateVpc",
-                "ec2:CreateVpcEndpoint",
-                "ec2:CreateVpcEndpointConnectionNotification",
-                "ec2:CreateVpcEndpointServiceConfiguration",
-                "ec2:CreateVpnConnection",
-                "ec2:CreateVpnConnectionRoute",
-                "ec2:CreateVpnGateway",
-                "ec2:DeleteCustomerGateway",
-                "ec2:DeleteFlowLogs",
-                "ec2:DeleteInternetGateway",
-                "ec2:DeleteNetworkInterface",
-                "ec2:DeleteNetworkInterfacePermission",
-                "ec2:DeleteRoute",
-                "ec2:DeleteRouteTable",
-                "ec2:DeleteSecurityGroup",
-                "ec2:DeleteSubnet",
-                "ec2:DeleteSubnetCidrReservation",
-                "ec2:DeleteTags",
-                "ec2:DeleteTransitGateway",
-                "ec2:DeleteTransitGatewayPeeringAttachment",
-                "ec2:DeleteTransitGatewayPrefixListReference",
-                "ec2:DeleteTransitGatewayRoute",
-                "ec2:DeleteTransitGatewayRouteTable",
-                "ec2:DeleteTransitGatewayVpcAttachment",
-                "ec2:DeleteVpc",
-                "ec2:DeleteVpcEndpoints",
-                "ec2:DeleteVpcEndpointServiceConfigurations",
-                "ec2:DeleteVpnConnection",
-                "ec2:DeleteVpnConnectionRoute",
-                "ec2:Describe*",
-                "ec2:DetachInternetGateway",
-                "ec2:DisassociateAddress",
-                "ec2:DisassociateRouteTable",
-                "ec2:GetLaunchTemplateData",
-                "ec2:GetTransitGatewayAttachmentPropagations",
-                "ec2:ModifyInstanceAttribute",
-                "ec2:ModifySecurityGroupRules",
-                "ec2:ModifyTransitGatewayVpcAttachment",
-                "ec2:ModifyVpcAttribute",
-                "ec2:ModifyVpcEndpoint",
-                "ec2:ReleaseAddress",
-                "ec2:ReplaceRoute",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:RunInstances",
-                "ec2:StartInstances",
-                "ec2:StopInstances",
-                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
-                "ec2:UpdateSecurityGroupRuleDescriptionsIngress",
-                "iam:AddRoleToInstanceProfile",
-                "iam:AttachRolePolicy",
-                "iam:CreateInstanceProfile",
-                "iam:CreatePolicy",
-                "iam:CreateRole",
-                "iam:DeleteInstanceProfile",
-                "iam:DeletePolicy",
-                "iam:DeleteRole",
-                "iam:DeleteRolePolicy",
-                "iam:DetachRolePolicy",
-                "iam:GetInstanceProfile",
-                "iam:GetPolicy",
-                "iam:GetRole",
-                "iam:GetRolePolicy",
-                "iam:ListPolicyVersions",
-                "iam:ListRoles",
-                "iam:PassRole",
-                "iam:PutRolePolicy",
-                "iam:RemoveRoleFromInstanceProfile",
-                "lambda:CreateFunction",
-                "lambda:DeleteFunction",
-                "lambda:DeleteLayerVersion",
-                "lambda:GetFunction",
-                "lambda:GetLayerVersion",
-                "lambda:InvokeFunction",
-                "lambda:PublishLayerVersion",
-                "logs:CreateLogGroup",
-                "logs:DeleteLogGroup",
-                "logs:DescribeLogGroups",
-                "logs:PutRetentionPolicy",
-                "route53:ChangeTagsForResource",
-                "route53:CreateHealthCheck",
-                "route53:CreateHostedZone",
-                "route53:CreateTrafficPolicy",
-                "route53:DeleteHostedZone",
-                "route53:DisassociateVPCFromHostedZone",
-                "route53:GetHostedZone",
-                "route53:ListHostedZones",
-                "route53domains:ListDomains",
-                "route53domains:ListOperations",
-                "route53domains:ListTagsForDomain",
-                "route53resolver:AssociateResolverEndpointIpAddress",
-                "route53resolver:AssociateResolverRule",
-                "route53resolver:CreateResolverEndpoint",
-                "route53resolver:CreateResolverRule",
-                "route53resolver:DeleteResolverEndpoint",
-                "route53resolver:DeleteResolverRule",
-                "route53resolver:DisassociateResolverEndpointIpAddress",
-                "route53resolver:DisassociateResolverRule",
-                "route53resolver:GetResolverEndpoint",
-                "route53resolver:GetResolverRule",
-                "route53resolver:ListResolverEndpointIpAddresses",
-                "route53resolver:ListResolverEndpoints",
-                "route53resolver:ListResolverRuleAssociations",
-                "route53resolver:ListResolverRules",
-                "route53resolver:ListTagsForResource",
-                "route53resolver:UpdateResolverEndpoint",
-                "route53resolver:UpdateResolverRule",
-                "s3:AbortMultipartUpload",
-                "s3:CreateBucket",
-                "s3:DeleteBucket",
-                "s3:DeleteObject",
-                "s3:GetAccountPublicAccessBlock",
-                "s3:GetBucketAcl",
-                "s3:GetBucketOwnershipControls",
-                "s3:GetBucketPolicy",
-                "s3:GetBucketPolicyStatus",
-                "s3:GetBucketPublicAccessBlock",
-                "s3:GetObject",
-                "s3:GetObjectVersion",
-                "s3:GetBucketVersioning",
-                "s3:ListAccessPoints",
-                "s3:ListAccessPointsForObjectLambda",
-                "s3:ListAllMyBuckets",
-                "s3:ListBucket",
-                "s3:ListBucketMultipartUploads",
-                "s3:ListBucketVersions",
-                "s3:ListJobs",
-                "s3:ListMultipartUploadParts",
-                "s3:ListMultiRegionAccessPoints",
-                "s3:ListStorageLensConfigurations",
-                "s3:PutAccountPublicAccessBlock",
-                "s3:PutBucketAcl",
-                "s3:PutBucketPolicy",
-                "s3:PutBucketPublicAccessBlock",
-                "s3:PutObject",
-                "secretsmanager:CreateSecret",
-                "secretsmanager:DeleteSecret",
-                "secretsmanager:DescribeSecret",
-                "secretsmanager:GetSecretValue",
-                "secretsmanager:ListSecrets",
-                "secretsmanager:ListSecretVersionIds",
-                "secretsmanager:PutResourcePolicy",
-                "secretsmanager:TagResource",
-                "secretsmanager:UpdateSecret",
-                "sns:ListTopics",
-                "ssm:DescribeInstanceProperties",
-                "ssm:DescribeSessions",
-                "ssm:GetConnectionStatus",
-                "ssm:GetParameters",
-                "ssm:ListAssociations",
-                "ssm:ResumeSession",
-                "ssm:StartSession",
-                "ssm:TerminateSession"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
+Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã chuẩn bị đầy đủ các công cụ và quyền truy cập sau.
 
+## 🔑 Quyền truy cập cần thiết
+
+### Tài khoản AWS
+
+- Tài khoản AWS với quyền **AdministratorAccess** hoặc tương đương.
+- Quyền truy cập vào **AWS Management Console** và **AWS CLI**.
+
+> Ghi lại các giá trị sau — bạn sẽ dùng chúng xuyên suốt workshop:
+>
+> | Placeholder | Mô tả | Ví dụ |
+> |---|---|---|
+> | `ACCOUNT_ID` | AWS Account ID 12 chữ số | `123456789012` |
+> | `REGION` | Region triển khai | `ap-southeast-1` |
+> | `DEPLOY_BUCKET` | S3 bucket lưu Lambda artifact | `guardscript-deploy-ap-southeast-1` |
+
+### Quyền IAM cần thiết
+
+User hoặc role AWS của bạn cần có quyền tạo và quản lý:
+
+- AWS Lambda, Lambda Function URLs
+- Amazon DynamoDB (tables, GSIs)
+- Amazon S3 (buckets, objects, policies)
+- Amazon CloudFront (distributions, cache policies, functions, OAC)
+- API Gateway V2 (WebSocket API, routes, stages)
+- AWS CloudFormation / AWS SAM
+- AWS CloudWatch (log groups, alarms, dashboards)
+- AWS IAM (tạo roles và policies cho Lambda execution)
+- AWS Certificate Manager (tùy chọn — cho custom domain)
+- AWS WAF (tùy chọn)
+
+> **Tip:** Trong môi trường workshop, cách đơn giản nhất là dùng `AdministratorAccess`.
+
+---
+
+## 🛠️ Công cụ cần cài đặt
+
+Cài đặt tất cả công cụ trước khi tiếp tục.
+
+### 1. Node.js 20.x
+
+GuardScript chạy trên **Node.js 20.x** (LTS). Cần thiết để cài dependencies cục bộ.
+
+```bash
+node --version   # Phải ra v20.x.x
+npm --version
 ```
 
-#### Khởi tạo tài nguyên bằng CloudFormation
+Tải về: [https://nodejs.org](https://nodejs.org)
 
-Trong lab này, chúng ta sẽ dùng N.Virginia region (us-east-1).
+### 2. AWS CLI v2
 
-Để chuẩn bị cho môi trường làm workshop, chúng ta deploy CloudFormation template sau (click link): [PrivateLinkWorkshop ](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://s3.us-east-1.amazonaws.com/reinvent-endpoints-builders-session/Nested.yaml&stackName=PLCloudSetup). Để nguyên các lựa chọn mặc định.
+Dùng để đồng bộ frontend lên S3, seed DynamoDB và quản lý tài nguyên.
 
-![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack1.png)
+```bash
+aws --version    # Phải ra aws-cli/2.x.x
+```
 
-+ Lựa chọn 2 mục acknowledgement 
-+ Chọn Create stack
+Tải về: [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
-![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack2.png)
+Cấu hình với thông tin đăng nhập:
 
-Quá trình triển khai CloudFormation cần khoảng 15 phút để hoàn thành.
+```bash
+aws configure
+# AWS Access Key ID:     <access-key>
+# AWS Secret Access Key: <secret-key>
+# Default region name:   ap-southeast-1
+# Default output format: json
+```
 
-![complete](/images/5-Workshop/5.2-Prerequisite/complete.png)
+### 3. AWS SAM CLI
 
-+ 2 VPCs đã được tạo
+Dùng để build và deploy stack CloudFormation/SAM.
 
-![vpcs](/images/5-Workshop/5.2-Prerequisite/vpcs.png)
+```bash
+sam --version    # Phải ra SAM CLI, version 1.x.x
+```
 
-+ 3 EC2s đã được tạo
+Tải về: [https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)
 
-![EC2](/images/5-Workshop/5.2-Prerequisite/ec2.png)
+### 4. Git
+
+Dùng để clone repository.
+
+```bash
+git --version
+```
+
+---
+
+## 📁 Cấu trúc repository
+
+Clone repository và điều hướng vào thư mục `code_protector_aws`:
+
+```bash
+git clone <repository-url>
+cd code_protector_aws
+```
+
+Các thư mục quan trọng:
+
+```
+code_protector_aws/
+  src/          ← Lambda source code (Node.js)
+  frontend/     ← Static frontend assets
+  infra/
+    template.yaml  ← AWS SAM / CloudFormation template
+```
+
+---
+
+## ✅ Checklist trước khi bắt đầu
+
+Trước khi chuyển sang Giai đoạn 1, kiểm tra:
+
+- [ ] `node --version` ra `v20.x.x`
+- [ ] `aws --version` ra `aws-cli/2.x.x`
+- [ ] `sam --version` ra phiên bản hợp lệ
+- [ ] `aws sts get-caller-identity` trả về account ID và ARN của bạn
+- [ ] Repository đã clone và thư mục `code_protector_aws/` có thể truy cập
