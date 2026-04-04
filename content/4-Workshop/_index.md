@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: 2026-03-26
-weight: 5
+weight: 4
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 4. </b> "
 ---
 
 # GuardScript — Serverless Script Protection Platform
