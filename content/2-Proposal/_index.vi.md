@@ -216,10 +216,10 @@ Chi phí hạ tầng hàng tháng điển hình (Free Tier / Quy mô nhỏ): **~
 | API Gateway WebSocket | ~$0.35/tháng | Kết nối WebSocket |
 | Amazon SES | ~$0.09/tháng | Email thông báo và mời thành viên |
 | Amazon SNS | ~$0.00/tháng | Cảnh báo (chủ yếu trong free tier) |
-| AWS WAF | ~$0.21/tháng | Quy tắc bảo vệ edge |
+| AWS WAF | ~$5/tháng | Quy tắc bảo vệ edge |
 | AWS ACM | ~$0.00/tháng | Chứng chỉ SSL/TLS (miễn phí cho CloudFront) |
 | AWS IAM | ~$0.00/tháng | Không tính phí trực tiếp |
-| **Tổng ước tính** | **~$4.32/tháng** | Pay-per-use, serverless |
+| **Tổng ước tính** | **~$8.11/tháng** | Pay-per-use, serverless |
 
 > Lambda và DynamoDB chủ yếu nằm trong free tier ở mức sử dụng thấp.
 

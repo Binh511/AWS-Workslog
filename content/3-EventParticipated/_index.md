@@ -19,6 +19,7 @@ pre: " <b> 3. </b> "
 &emsp;**Date & Time:** March 14, 2026  
 &emsp;**Location:** AWS Vietnam Office (Floor 26), Ho Chi Minh City  
 &emsp;**Role:** Attendee (FCJ Cloud Intern)
+
 ---
 
 ### [Event 3](3.3-Event3/)

@@ -218,10 +218,10 @@ Typical monthly infrastructure cost (Free Tier / Small Scale): **~$4.32/month**
 | API Gateway WebSocket | ~$0.35/month       | WebSocket connections                      |
 | Amazon SES            | ~$0.09/month       | Email notifications and invitations        |
 | Amazon SNS            | ~$0.00/month       | Alert notifications (mostly free tier)     |
-| AWS WAF               | ~$0.21/month       | Edge protection rules                      |
+| AWS WAF               | ~$5/month       | Edge protection rules                      |
 | AWS ACM               | ~$0.00/month       | SSL/TLS certificates (free for CloudFront) |
 | AWS IAM               | ~$0.00/month       | No direct cost                             |
-| **Total**             | **~$4.32/month**   | Usage-based, serverless pay-per-use        |
+| **Total**             | **~$8.11/month**   | Usage-based, serverless pay-per-use        |
 
 > Lambda and DynamoDB are mostly covered by the free tier at low usage levels.
 
